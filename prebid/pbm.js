@@ -21,8 +21,9 @@
             
         /*return i.open("GET", "http://54.187.76.151:2424/cache?uuid=" + n, !1), i.withCredentials = "true", E.logTimestamp("Adm is requested"), i.send(null), 200 === i.status ? t = i.responseText : E.logError("Error request adm cache id"), t */
         /*return i.open("GET", "https://prebid.adnxs.com/pbc/v1/cache?uuid=402a864e-bd4e-464b-8a21-a37d4cdd39a2" , !1), i.withCredentials = "true", E.logTimestamp("Adm is requested"), i.send(null), 200 === i.status ? t = i.responseText : E.logError("Error request adm cache id"), t */
-        return i.open("GET", "https://dl.dropboxusercontent.com/s/nkmd5w5c4n26qu0/simplerubibanner.json" , !1), i.withCredentials = "true", E.logTimestamp("Adm is requested"), i.send(null), 200 === i.status ? t = i.responseText : E.logError("Error request adm cache id"), t
-
+        /*return i.open("GET", "https://dl.dropboxusercontent.com/s/nkmd5w5c4n26qu0/simplerubibanner.json" , !1), i.withCredentials = "true", E.logTimestamp("Adm is requested"), i.send(null), 200 === i.status ? t = i.responseText : E.logError("Error request adm cache id"), t */
+    	return i.open("GET", "https://raw.githubusercontent.com/randeepsiddhu/statichosted/master/prebid/simplerubibanner.json" , !1), i.withCredentials = "true", E.logTimestamp("Adm is requested"), i.send(null), 200 === i.status ? t = i.responseText : E.logError("Error request adm cache id"), t
+        
     }
 
     function o(e, n, t) {
